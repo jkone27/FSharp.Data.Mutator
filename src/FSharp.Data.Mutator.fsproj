@@ -1,9 +1,21 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFrameworks>netstandard2.0;net5.0</TargetFrameworks>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <WarnOn>3390;$(WarnOn)</WarnOn>
+    <Authors>jkone27</Authors>
+    <Product>FSharp.Data.Mutator</Product>
+    <PackageId>FSharp.Data.Mutator</PackageId>
+    <NeutralLanguage>en</NeutralLanguage>
+    <Description>Create altered copies of FSharp.Data.JsonProvider instances (JsonValue)</Description>
+    <Copyright>MIT licence</Copyright>
+    <PackageLicenseUrl>http://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/jkone27/FSharp.Data.Mutator</PackageProjectUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/jkone27/FSharp.Data.Mutator/master/icon.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/jkone27/FSharp.Data.Mutator</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>F#,fsharp,FSharp.Data,JsonValue,data,json,.net,testing</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
