@@ -1,4 +1,4 @@
-# FSharp.Data.Mutator
+# FSharp.Data.Mutator [![NuGet Badge](https://buildstats.info/nuget/FSharp.Data.Mutator)](https://www.nuget.org/packages/FSharp.Data.Mutator)
 
 <img src="https://github.com/jkone27/FSharp.Data.Mutator/blob/main/icon.png?raw=true" />
 

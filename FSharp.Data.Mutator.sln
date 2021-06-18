@@ -19,6 +19,13 @@ Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "FSharp.Data.Mutator", "src\
 EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "FSharp.Data.Mutator.Tests", "test\FSharp.Data.Mutator.Tests.fsproj", "{52ABC391-3227-4693-9AC7-1146DDF67B2A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{1FC641AB-8EB1-4C37-83F8-54B3EA86138E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{EC4C69D5-9902-493C-813B-B86FF2EE5A6A}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,6 +67,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{4A1079F0-9F05-4F94-A07C-C4C8938C2354} = {D3A79CD4-311E-4EBA-971E-53777721265C}
 		{52ABC391-3227-4693-9AC7-1146DDF67B2A} = {D126D522-BF45-4067-B45A-9A5B7D4A9667}
+		{1FC641AB-8EB1-4C37-83F8-54B3EA86138E} = {2024B1E6-C57E-4C49-8C27-448152474F71}
+		{EC4C69D5-9902-493C-813B-B86FF2EE5A6A} = {1FC641AB-8EB1-4C37-83F8-54B3EA86138E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B2A931E2-4179-4DCC-98D4-A0774A3492F5}
