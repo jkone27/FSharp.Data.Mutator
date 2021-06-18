@@ -1,4 +1,4 @@
-#i "nuget:C:\TestNugetPackages" //change with your local feed
+//#i "nuget:C:\TestNugetPackages" //change with your local feed
 #r "nuget:FSharp.Data.Mutator,0.1.0-beta"
 
 

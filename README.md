@@ -42,5 +42,21 @@ TestJsonProvided.GetSample()
 |> Change <@ fun x -> x.Items.[0].First = 500 @>
 
 ```
+and the output should be
+
+```
+val it : JsonProvider<...>.Root =
+  {
+  "name": "one",
+  "nested": {
+    "another": "two"
+  },
+  "items": [
+    {
+      "first": 500
+    }
+  ]
+}
+```
 
 Have fun!
