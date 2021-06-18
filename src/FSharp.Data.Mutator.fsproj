@@ -12,7 +12,7 @@
     <Copyright>MIT licence</Copyright>
     <PackageLicenseUrl>http://opensource.org/licenses/MIT</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/jkone27/FSharp.Data.Mutator</PackageProjectUrl>
-    <PackageIconUrl>https://raw.githubusercontent.com/jkone27/FSharp.Data.Mutator/master/icon.png</PackageIconUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/jkone27/FSharp.Data.Mutator/main/icon.png</PackageIconUrl>
     <RepositoryUrl>https://github.com/jkone27/FSharp.Data.Mutator</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>F#,fsharp,FSharp.Data,JsonValue,data,json,.net,testing</PackageTags>
