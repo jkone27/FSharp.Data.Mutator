@@ -3,7 +3,9 @@
 <img src="https://github.com/jkone27/FSharp.Data.Mutator/blob/main/icon.png?raw=true" />
 
 Enables to create copies (similar to lenses) to generated FSharp.Data types (json only for now),
-The library now depends both on FSharp.Data and Newtonsoft.Json as dependencies, but can be improved
+The library now depends both on FSharp.Data and Newtonsoft.Json as dependencies, but can be improved.
+
+A [medium article](https://jkone27-3876.medium.com/fsharp-data-mutator-66550bb6a2cc) about it.
 
 ## Usage
 
