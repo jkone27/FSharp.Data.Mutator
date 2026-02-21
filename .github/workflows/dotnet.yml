@@ -49,15 +49,10 @@ jobs:
         echo "version=$VERSION" >> $GITHUB_OUTPUT
 
     - name: Pack NuGet package
-      run: dotnet pack ./src/FSharp.Data.Mutator.fsproj \
-        --configuration Release \
-        -p:PackageVersion=${{ steps.version.outputs.version }} \
-        -o ./artifacts
+      run: dotnet pack ./src/FSharp.Data.Mutator.fsproj --configuration Release -p:PackageVersion=${{ steps.version.outputs.version }} -o ./artifacts
 
     - name: Publish to NuGet.org
-      run: dotnet nuget push "./artifacts/*.nupkg" \
-        --api-key ${{ secrets.NUGET_API_KEY }} \
-        --source https://api.nuget.org/v3/index.json
+      run: dotnet nuget push "./artifacts/*.nupkg" --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json
 
     - name: Publish GitHub Release
       uses: softprops/action-gh-release@v2
