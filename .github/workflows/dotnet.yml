@@ -49,7 +49,7 @@ jobs:
         echo "version=$VERSION" >> $GITHUB_OUTPUT
 
     - name: Pack NuGet package
-      run: dotnet pack \
+      run: dotnet pack .\src\FSharp.Data.Mutator.fsproj \
         --configuration Release \
         -p:PackageVersion=${{ steps.version.outputs.version }} \
         -o ./artifacts
